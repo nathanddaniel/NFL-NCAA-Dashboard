@@ -1,31 +1,50 @@
-/* Add a black background color to the top navigation */
-
 * {
-    background-color: #192036;
-}
-
-body {
     font-family: "Poppins", sans-serif;
 }
+
+/* Navbar */
 .topnav {
     overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
     float: left;
     color: #f2f2f2;
+    background-color: #192036;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
     color: #f2f2f2;
     text-shadow: 0 0 10px #fdffdf;
 }
 
-.featured {
+.top-section {
+    background-color: #192036;
+    overflow: hidden;
+}
+
+.logo {
+    width: 10%;
+}
+
+.intro-text {
     color: #f2f2f2;
     margin-left: 15px;
+}
+
+.featured {
+    background-color: #121522;
+    margin-left: 15px;
+}
+
+.table {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.table-header {
+    padding: 2px 16px;
 }
